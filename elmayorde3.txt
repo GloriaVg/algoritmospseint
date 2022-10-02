@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	definir x,w,z Como Real
+	escribir "ingresa la primer cantidad";
+	leer x;
+	escribir "ingresa la segundo cantidad";
+	leer w;
+	escribir "ingresa la tercer cantidad";
+	leer z;
+	si x>w & x>z Entonces
+		Escribir "es el mayor:",x
+	SiNo
+		si w>x & w>z Entonces
+			Escribir  "es el mayor:",w
+		SiNo
+			si z>x & z>w Entonces
+				Escribir "es el mayor:",z
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

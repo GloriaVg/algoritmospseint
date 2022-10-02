@@ -1,0 +1,36 @@
+Algoritmo sin_titulo
+	definir x,w,z,a Como Real
+	Escribir  "ingresa la primer  cantidad";
+	leer x;
+	Escribir  "ingresa la segunda cantidad";
+	leer w;
+	Escribir  "ingresa la tercer cantidad";
+	leer z;
+	si x>w & x>=z Entonces
+	FinSi
+	
+	si w>z Entonces
+		Escribir "orden:", x," ,",w," ,",z;
+	SiNo
+		Escribir "orden:",x," ,",z," ,",w;
+		
+	FinSi
+	
+	si w>x & w>z Entonces
+	FinSi
+	si x>z Entonces
+		Escribir "orden:", w," ,",x," ,",z;
+	SiNo
+		escribir "orden:", w," ,",z," ,",x;
+	FinSi
+	
+	si z>x & z>w Entonces
+	FinSi
+	si x>w Entonces
+		Escribir "orden:", z," ,",x," ,",w;
+	SiNo
+		escribir "orden:", z," ,",w," ,",x;
+	FinSi
+	
+
+FinAlgoritmo

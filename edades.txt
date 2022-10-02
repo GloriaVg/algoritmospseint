@@ -1,0 +1,80 @@
+Algoritmo sin_titulo
+	
+Definir e como entero;
+	
+Escribir "ingresa tu edad";
+	
+Leer e;
+	
+ si (e>=0 & e<3) Entonces
+		
+   Escribir "bebe";
+	
+ sino
+ fin si
+		
+   si(e>=3 & e<8) Entonces
+			
+     Escribir "niño";
+		
+   SiNo
+			
+   si (e>=8 & e<16) Entonces
+				
+    Escribir  "puberto";
+			
+   SiNo
+				
+   si (e>=16 & e<25) Entonces
+					
+     Escribir  "joven";
+				
+   sino 
+					
+   si(e>=25 & e<40) entonces
+						 
+     escribir "chavo ruco";
+					
+   SiNo
+						
+    si(e>=40 & e<60) entonces 
+							
+     escribir "don";
+						
+    sino 
+							
+    si (e>=60 & e<80) Entonces
+								
+      escribir "viejo";
+							
+    sino 
+								
+    si(e>=80) Entonces
+									
+      escribir "milagro";
+								
+    sino
+	
+								
+									
+									
+								
+                    FinSi
+							
+                FinSi
+							
+						
+            FinSi
+						
+					
+        FinSi
+				
+      FinSi
+				
+			
+   FinSi
+	
+FinSi
+
+
+FinAlgoritmo

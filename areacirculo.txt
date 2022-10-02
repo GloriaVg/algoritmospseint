@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	
+Definir r,r2,A Como Real
+	
+escribir "ingresa el valor del radio";
+	
+leer r;
+	
+r2=r*r
+	
+A=3.1415*r2
+	
+escribir "el area del circulo es:",A
+
+FinAlgoritmo
